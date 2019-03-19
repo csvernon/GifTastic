@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GifTastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <script src="assets/main.js" async></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row"><h1 class="col col-12">Click an actor or add your own</h1></div>
+        <div class="row">
+            <div class="col-12" id="buttons"></div>
+            <div class="ccol-12">
+                <div class="col-12">
+                    <input type="text" id="Input" onClick="this.select();" value="Add an Actor"></input>
+                    <button id="addButton">Submit</button>
+                </div>
+                <div class="col-12"></div>
+            </div>
+        </div>
+        <container>
+            <div class="row">
+                <div class="col-4" id="gifColumn1"></div>
+                <div class="col-4" id="gifColumn2"></div>
+                <div class="col-4" id="gifColumn3"></div>
+            </div>
+        </container>
+    </div>
+</body>
+</html>
